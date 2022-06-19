@@ -5,16 +5,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background: url(https://images.unsplash.com/photo-1501419737817-eadda6b445e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    
+}
+
 .container {
     position: relative;
     min-height: 100vh;
-    background: #ddd;
 }
 
-.container h1 {
-    font-size: 40px;
+h1 {
+    font-size: 3rem;
     font-weight: normal;
-    padding: 15px;
+    padding: 35px;
     color: #333;
     text-align: center;
     text-transform: capitalize;
@@ -31,7 +38,7 @@
 .container .image-container .image {
     height: 250px;
     width: 350px;
-    border: 10px solid #fff;
+    border: 3px solid #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     overflow: hidden;
     cursor: pointer;
@@ -77,14 +84,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     border-radius: 5px;
-    width: 750px;
+    width: 1000px;
     object-fit:cover ;
 }
 
 @media all and (max-width: 768px) {
     .container .popup-image img {
         width: 95%;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
