@@ -1,6 +1,6 @@
 <div>
   <h1>Popup Image Gallery</h1> 
-  <img src="" alt="" width="auto">
+  <img src="20!!!.jpg" alt="" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
